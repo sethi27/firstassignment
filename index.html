@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative coding portfolio">
+    <title>Creative Coding Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">CodeLab</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Creative Coding Portfolio</h1>
+            <p>Exploring code and creativity</p>
+            <a href="#projects" class="btn">View Projects</a>
+            <div id="p5-container"></div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am a graphic design student who got interested in coding and making my own websites, with cool, fun, interactive elements. My interest started from the <a href="https://p5js.org/" target="_blank" rel="noopener">p5.js website</a>.</p>
+            <div class="profile-image">
+                <img src="https://picsum.photos/id/1018/400/400" alt="Profile Image">
+            </div>
+            <div class="skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>P5.js</span>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Assignment 2</h3>
+                    <p>Interactive Elements</p>
+                    <a href="assignment2.html" class="btn">View Assignment</a>
+                </div>
+                <div class="project-card">
+                    <h3>Assignment 3</h3>
+                    <p>Data Visualization</p>
+                    <a href="assignment3.html" class="btn">View Assignment</a>
+                </div>
+                <div class="project-card">
+                    <h3>Assignment 4</h3>
+                    <p>User Interface Design</p>
+                    <a href="assignment4.html" class="btn">View Assignment</a>
+                </div>
+                <div class="project-card">
+                    <h3>Assignment 5</h3>
+                    <p>Advanced Features</p>
+                    <a href="assignment5.html" class="btn">View Assignment</a>
+                </div>
+                <div class="project-card">
+                    <h3>Final Project</h3>
+                    <p>Creative Coding Showcase</p>
+                    <a href="final.html" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Lab 1</h3>
+                    <p>Introduction to Creative Coding</p>
+                    <a href="lab1.html" class="btn">View Lab</a>
+                </div>
+                <div class="project-card">
+                    <h3>Lab 2</h3>
+                    <p>Basic Animation</p>
+                    <a href="lab2.html" class="btn">View Lab</a>
+                </div>
+                <div class="project-card">
+                    <h3>Lab 3</h3>
+                    <p>Interactive Design</p>
+                    <a href="lab3.html" class="btn">View Lab</a>
+                </div>
+                <div class="project-card">
+                    <h3>Lab 4</h3>
+                    <p>Data and Visualization</p>
+                    <a href="lab4.html" class="btn">View Lab</a>
+                </div>
+                <div class="project-card">
+                    <h3>Lab 5</h3>
+                    <p>Advanced Techniques</p>
+                    <a href="lab5.html" class="btn">View Lab</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://p5js.org/" target="_blank" rel="noopener" title="p5.js" style="font-size:1.2rem; font-weight:600;">p5.js</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Creative Coding Portfolio</p>
+        </footer>
+    </div>
+    <script src="animation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
